@@ -19,7 +19,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "one", "two", "three", "four", "five", "web" };
+static const char *tags[] = { "web", "two", "three", "four", "five", "six" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -27,7 +27,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class         instance    title       tags mask     isfloating   monitor */
-	{ "Pale moon",   NULL,       NULL,       1 << 5,       0,           -1 },
+	{ "Pale moon",   NULL,       NULL,       1,            0,           -1 },
 };
 
 /* layout(s) */
