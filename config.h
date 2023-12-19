@@ -26,9 +26,9 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "st-256color",     NULL,       NULL,       1 << 4,            1,           -1 },
-	{ "Pale moon",  NULL,       NULL,       1 << 5,       1,           -1 },
+	/* class         instance    title       tags mask     isfloating   monitor */
+	{ "st-256color", NULL,       NULL,       1 << 4,       0,           -1 },
+	{ "Pale moon",   NULL,       NULL,       1 << 5,       0,           -1 },
 };
 
 /* layout(s) */
